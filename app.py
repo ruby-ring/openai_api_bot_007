@@ -31,7 +31,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("AI Assistant 2023 made by KF")
-st.write("ChatGPT GPT-3.5APIを使ったチャットボットです。")
+st.write("OpenAIのGPT-3.5APIを使ったチャットボットです。回答に少々時間がかかります🙇")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
 
